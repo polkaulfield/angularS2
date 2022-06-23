@@ -1,0 +1,94 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../fonts/Blogger\ Sans/BloggerSans.css";
+
+// Bootstrap override classes
+
+body {
+    font-family: "BloggerSans", Georgia;
+    overflow-y: scroll;
+    color: #626262;
+}
+
+.fw-bold {
+    color:#000000;
+}
+
+.navbar {
+    background-color: alpha($color: #000000);
+}
+
+.btn {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.btn-primary:hover {
+    background-color: #F7F7F7;
+    color: #5265E1;
+}
+
+.nav-link:hover {
+    color: #FA5959 !important;
+}
+
+.btn-secondary {
+    background-color: #E8E8E8;
+    border-color: #E8E8E8;
+    color: #626262;
+}
+
+.btn-secondary:hover {
+    background-color: #F7F7F7;
+    border-color: #626262;
+    color: #626262;
+}
+
+
+.nav-tabs > .nav-item > .nav-link:hover {
+    border-width: 0px;
+}
+
+.nav-tabs > .nav-item > .nav-link {
+    border-width: 0px;
+    color: #626262;
+}
+
+.nav-tabs > .nav-item > nav-link:active {
+    border-bottom: 3px solid #FA5959;
+    border-radius: 0px;
+    color:#000000;
+}
+
+.nav-tabs > .nav-item > .active {
+    border-bottom: 3px solid #FA5959;
+}
+
+.nav-tabs > .nav-item > .active:hover {
+    border-bottom: 3px solid #FA5959;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../images/icon-hamburger.svg");
+}
+
+// New classes
+.btn-login {
+    color: #fff;
+    background-color: #FA5959;
+    border-color: #FA5959;
+}
+
+
+.btn-login:hover {
+    color: #FA5959;
+    background-color: alpha($color: #000000);
+    border-color: #FA5959;
+}
+
+.mt-6 {
+    margin-top: 6rem !important;
+  }
+
+  .mt-7 {
+    margin-top: 12rem !important;
+  }
